@@ -26,7 +26,7 @@
       }
     },
     methods: {
-      show() {
+      open() {
         this.mdVisible = true;
         this.$el.focus();
         this.$emit('open');
